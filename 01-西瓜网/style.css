@@ -1,0 +1,338 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, ol, li {
+	list-style: none;
+}
+
+input, button {
+	outline: none;
+	padding: 0;
+	border: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+.fL {
+	float: left;
+}
+
+.fR {
+	float: right;
+}
+
+.w {
+	width: 980px;
+	margin: 0 auto;
+}
+
+body {
+	background-color: #f4f4f4;
+	font-size: 12px;
+}
+
+/*top start*/
+.top {
+	height: 30px;
+	line-height: 30px;
+	background-color: #eee;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+.top a {
+	color: #555;
+	font-size: 12px;
+}
+
+.top a span {
+	display: inline-block;
+	width: 4px;
+	height: 4px;
+	background-color: #cecece;
+	border-radius: 2px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+/*header begin*/
+.header {
+	height: 60px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.logo {
+	padding-top: 14px;
+	color: #555;
+}
+
+.logo img {
+	vertical-align: middle;
+	margin-right: 4px;
+}
+
+.search {
+	margin: 30px 10px 0 0;
+}
+
+.search input {
+	width: 242px;
+	height: 28px;
+	line-height: 28px;
+	padding-left: 10px;
+	border: 1px solid #ddd;
+	background: #fff url(images/bo.png) no-repeat 222px center;
+	color: #ccc;
+}
+
+.search input::-webkit-input-placeholder {
+	color: #ccc;
+}
+
+/*nav start*/
+.nav {
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+.nav a {
+	float: left;
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+	color: #000;
+	padding: 0 45px;
+	margin-left: 1px;
+	background-color: #e0e0e0;
+	font-size: 14px;
+}
+
+.nav .special {
+	padding: 0 35px;
+	margin-left: 0;
+	color: #fff;
+	background-color: #19b4ea;
+	border-radius: 4px;
+}
+
+/*banner start*/
+.banner {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.banner img {
+	vertical-align: bottom;
+}
+
+.banner ul {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -20px;
+}
+
+.banner li {
+	float: left;
+	width: 12px;
+	height: 12px;
+	border-radius: 6px;
+	margin: 0 4px;
+	background-color: #b0b0b0;
+}
+
+.banner .current {
+	background-color: #19b4ea;
+}
+
+/*news start*/
+.news {
+	margin-bottom: 14px;
+}
+
+.newsL {
+	width: 600px;
+	margin-right: 20px;
+}
+
+.resource {
+	width: 616px;
+}
+
+.news h3 {
+	color: #7a7f81;
+	font-size: 14px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #cbd1d3;
+	margin-bottom: 10px;
+}
+
+.newsL a {
+	float: left;
+	display: inline-block;
+	color: #333;
+	width: 137px;
+	text-align: center;
+	margin-right: 17px;
+}
+
+.newsL a img {
+	border: 1px solid #cbd1d3;
+	margin-bottom: 10px;
+}
+
+.newsR {
+	width: 360px;
+}
+
+.newsR h3 {
+	margin-bottom: 0;
+}
+
+.newsR li {
+	height: 39px;
+	line-height: 39px;
+	border-bottom: 1px dotted #d1d1d1;
+	padding-left: 15px;
+	background: url(images/jt.png) no-repeat center left;
+}
+
+.news li a {
+	display: inline-block;
+	width: 300px;
+	color: #333;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.news li span {
+	float: right;
+	color: #999;
+}
+
+/*intro start*/
+.intro {
+	margin-bottom: 53px;
+}
+
+.introL {
+	width: 600px;
+	margin-right: 20px;
+	background: url(images/bg.png) no-repeat left 60px;
+}
+
+.intro h3 {
+	color: #7a7f81;
+	font-size: 14px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	border-bottom: 1px solid #cbd1d3;
+	margin-bottom: 10px;
+}
+
+.introIn {
+	margin-left: 135px;
+}
+
+.introIn h2 {
+	color: #313131;
+	font-size: 16px;
+	padding: 10px 0 10px 0;
+}
+
+.introIn p {
+	color: #999;
+	line-height: 24px;
+}
+
+.introL a {
+	text-decoration: underline;
+	color: #c00;
+	font-weight: 700;
+}
+
+.introR {
+	width: 328px;
+	padding: 0 15px 20px;
+	border: 1px solid #cbd1d3;
+	background-color: #efefef;
+}
+
+.introR h3 {
+	margin-bottom: 20px;
+}
+
+.introR p {
+	color: #7a7f81;
+	margin-top: 10px;
+	line-height: 30px;
+}
+
+.introR span {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	vertical-align: top;
+	margin: 0 20px 0 5px;
+}
+
+p.contact1 span {
+	background: url(images/icon_contact.gif) no-repeat 0 0;
+}
+
+p.contact2 span {
+	background: url(images/icon_contact.gif) no-repeat 0 -30px;
+}
+
+p.contact3 span {
+	background: url(images/icon_contact.gif) no-repeat 0 -60px;
+}
+
+p.contact4 span {
+	background: url(images/icon_contact.gif) no-repeat 0 -90px;
+}
+
+.introR p em {
+	display: inline-block;
+	width: 268px;
+	font-style: normal;
+}
+
+/*footer start*/
+.footer {
+	height: 120px;
+	border-top: 1px solid #cbd1d3;
+	background-color: #ebebeb;
+	color: #999;
+}
+
+.footer .w {
+	padding-top: 40px;
+}
+
+.footer p {
+	margin-bottom: 15px;
+}
+
+.footer span {
+	font-size: 14px;
+}
